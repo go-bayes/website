@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
+  <info>
+    <title>APA Numeric (CV)</title>
+    <id>http://www.zotero.org/styles/apa-numeric-cv</id>
+    <author>
+      <name>Custom</name>
+    </author>
+    <category citation-format="numeric"/>
+    <category field="psychology"/>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+  </info>
+  <locale xml:lang="en">
+    <terms>
+      <term name="editor" form="short">Ed.</term>
+      <term name="editortranslator" form="short">Ed. &amp; Trans.</term>
+      <term name="translator" form="short">Trans.</term>
+    </terms>
+  </locale>
+  <macro name="author">
+    <names variable="author">
+      <name and="symbol" delimiter=", " delimiter-precedes-last="always" initialize-with=". " name-as-sort-order="all"/>
+      <label form="short" prefix=" (" suffix=")"/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text variable="title"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="date">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date" form="short"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="book report thesis" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="container">
+    <choose>
+      <if type="article-journal article-magazine article-newspaper" match="any">
+        <text variable="container-title" font-style="italic"/>
+        <choose>
+          <if variable="volume">
+            <text prefix=", " variable="volume" font-style="italic"/>
+            <text prefix="(" variable="issue" suffix=")"/>
+          </if>
+        </choose>
+        <text prefix=", " variable="page"/>
+      </if>
+      <else-if type="chapter paper-conference" match="any">
+        <group delimiter=" ">
+          <text term="in" text-case="capitalize-first"/>
+          <names variable="editor translator">
+            <name and="symbol" delimiter=", " initialize-with=". "/>
+            <label form="short" prefix=" (" suffix=")"/>
+          </names>
+          <text variable="container-title" font-style="italic"/>
+        </group>
+        <text prefix=" (pp. " variable="page" suffix=")"/>
+        <text prefix=". " variable="publisher"/>
+      </else-if>
+      <else-if type="thesis">
+        <group delimiter=", ">
+          <text variable="genre"/>
+          <text variable="publisher"/>
+        </group>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="doi-url">
+    <choose>
+      <if variable="DOI">
+        <text prefix="https://doi.org/" variable="DOI"/>
+      </if>
+      <else-if variable="URL">
+        <text variable="URL"/>
+      </else-if>
+    </choose>
+  </macro>
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography entry-spacing="1" second-field-align="flush">
+    <sort>
+      <key macro="date" sort="descending"/>
+      <key macro="author"/>
+    </sort>
+    <layout>
+      <text variable="citation-number" suffix=". "/>
+      <group delimiter=". ">
+        <text macro="author"/>
+        <text prefix="(" macro="date" suffix=")"/>
+        <text macro="title"/>
+        <text macro="container"/>
+        <text macro="doi-url"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

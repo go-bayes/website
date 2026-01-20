@@ -1,0 +1,25 @@
+---
+title: "Joseph Bulbulia"
+---
+
+Psychology professor at Victoria University of Wellington, New Zealand.
+
+## Links
+
+- [University Profile](https://people.wgtn.ac.nz/joseph.bulbulia)
+- [Epic-Lab](https://go-bayes.github.io/epic-lab/)
+- [Global Worship Map](https://www.placesmap.org)
+
+## Research Interests
+
+- Evolution of Religion
+- Causal Inference
+- Non-parametric Machine Learning
+- New Zealand Attitudes and Values Study
+
+## Personal Interests
+
+- Running (trail and road)
+- Music (Bass player)
+- Computer programming
+- History

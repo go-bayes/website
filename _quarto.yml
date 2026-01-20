@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Joseph Bulbulia"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: CV
+        href: cv/cv.qmd
+      - text: Research
+        href: research/index.qmd
+      - text: Blog
+        href: posts/
+    right:
+      - icon: github
+        href: https://github.com/go-bayes
+      - icon: envelope
+        href: mailto:joseph.bulbulia@vuw.ac.nz
+
+format:
+  html:
+    theme: default
+    css: styles/catppuccin-minimal.css
+    toc: true
+    code-copy: true
+    link-external-newwindow: true
+    mainfont: "JetBrains Mono"

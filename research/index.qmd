@@ -1,0 +1,27 @@
+---
+title: "Research"
+---
+
+## Current Projects
+
+### Evolution of Religion
+
+[Global Worship Map](https://www.placesmap.org)
+
+### Causal Inference Methods
+
+[Description to be added]
+
+### New Zealand Attitudes and Values Study
+
+[Description to be added]
+
+## Software
+
+### margot
+
+R package for causal inference using doubly robust machine learning methods.
+
+### margo
+
+[Description to be added]

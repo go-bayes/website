@@ -1,0 +1,98 @@
+---
+title: "Joseph A. Bulbulia"
+format:
+  html: default
+  pdf: default
+bibliography: publications.bib
+nocite: '@*'
+csl: apa-numeric-cv.csl
+---
+
+Professor, School of Psychological Sciences\
+Director, Center for Applied Cross-Cultural Research\
+Faculty of Education, Health, and Psychological Sciences\
+Victoria University of Wellington, New Zealand
+
+## Contact
+
+-   Email: [joseph.bulbulia\@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz)
+-   Max Planck: [Linguistic and Cultural Evolution](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)
+-   ORCID: [0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)
+-   EPIC Lab: [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epic-lab/)
+
+## Work
+
+| Years | Position |
+|-------|----------|
+| 2020-- | Professor of Psychology, Victoria University, New Zealand |
+| 2018--2020 | Maclaurin Goodfellow Chair, School of Humanities, The University of Auckland |
+| 2000--2017 | Lecturer → Senior Lecturer → Reader → Professor of Religion, Victoria University |
+
+## Specialisations
+
+Causal Inference, Evolution of Religion, National Scale Panel Data Collection
+
+## Education
+
+| Year | Degree |
+|------|--------|
+| 2001 | Princeton University, PhD |
+| 1997 | Princeton University, M.A. |
+| 1993 | Harvard University, M.T.S. |
+| 1990 | Holy Cross, A.B. (Phi Beta Kappa) |
+
+## Awards
+
+| Year | Award |
+|------|-------|
+| 2025 | **William C. Bier Award**: APA Division 36 -- Outstanding interdisciplinary work on issues of psychology of religion and related fields |
+| 2023 | **Godin Prize**: International Association for the Psychology of Religion -- Awarded once every four years for research excellence in the psychology of religion |
+| 2016 | **Victoria University Research Excellence Award** |
+| 2000 | **Faculty Fellowship**, Stevenson Hall: Princeton University |
+| 1996 | **Mellon Fellowship**: Princeton University |
+| 1996 | **Bowen Merit Award**: Princeton University |
+| 1990 | **Flatly Award** (top philosophy graduate): Holy Cross |
+
+## Service/Appointments
+
+| Years | Role |
+|-------|------|
+| 2022-- | Director, [Centre for Applied Cross-Cultural Research](https://www.wgtn.ac.nz/cacr/about/people/staff), Victoria University |
+| 2022-- | Adjunct Professor of Psychology, [University of Canterbury](https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/people/) |
+| 2020-- | Director, [EPIC Lab](https://go-bayes.github.io/epic-lab/), Victoria University |
+| 2018-- | Research Associate, [Max Planck Institute for the Science of Human History](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/) |
+| 2018-- | Advisory Board: Templeton Religion Trust: Social Consequences of Religion Initiative |
+| 2018--2020 | Maclaurin Goodfellow Chair, University of Auckland |
+| 2014--2024 | Co-editor: [Religion Brain & Behavior](http://www.tandfonline.com/toc/rrbb20/current) |
+| 2014--2016 | President: [International Association for the Cognitive Science of Religion](http://www.iacsr.com/iacsr/Home.html) |
+| 2012--2014 | President Elect: International Association for the Cognitive Science of Religion |
+| 2013-- | Editorial Advisory Board: [Zygon: Journal of Religion and Science](http://www.zygonjournal.org) |
+| 2011-- | Editorial Advisory Board: [Journal of The Cognitive Science of Religion](http://www.equinoxpub.com/index.php/JCSR) |
+| 2011-- | Senior Leadership Team: [New Zealand Attitudes and Values Study](https://www.psych.auckland.ac.nz/en/about/new-zealand-attitudes-and-values-study.html) |
+| 2010--2012 | Secretary General (elected): International Association for the Cognitive Science of Religion |
+| 2010--2014 | Editorial Advisory Board: Religion, Brain & Behavior |
+| 2010--2012 | Advisor: The Adaptive Logic of Religious Belief and Behaviour Group |
+| 2012 | Ernst Strugmann Forum: Cultural Evolution (Religion) Rapporteur |
+| 2008--2010 | Steering committee, Cognitive Study of Religion Group, American Academy of Religion |
+| 2008--2010 | Co-chair, Explanation, International Association for the History of Religions Conference, Toronto |
+| 2006-- | Distinguished Fellow: Religion Cognition and Culture Group, Aarhus University |
+| 2006--2010 | Executive Committee (elected): International Association for the Cognitive Science of Religion |
+| 2006 | Gaesteprofessor: Religion, Cognition, Culture Group, Aarhus University |
+| 1996--1999 | Assistant Master, Stevenson Hall: Princeton University |
+
+## Software
+
+1. Bulbulia, J. A. (2025). **margot**: MARGinal Observational Treatment-effects. [https://doi.org/10.5281/zenodo.10907724](https://doi.org/10.5281/zenodo.10907724)
+
+2. Bulbulia, J. A. (2025). **boilerplate**: Managing and Compiling Manuscript Templates. [https://doi.org/10.5281/zenodo.13370825](https://doi.org/10.5281/zenodo.13370825)
+
+3. Bulbulia, J. A. (2025). **places-of-worship**: Global Places of Worship Database. [https://github.com/go-bayes/places-of-worship](https://github.com/go-bayes/places-of-worship)
+
+4. Bulbulia, J. A. (2025). **causalworkshop**: Teaching Materials and Reproducible Code for Causal Inference Workshops. [https://github.com/go-bayes/causalworkshop](https://github.com/go-bayes/causalworkshop)
+
+5. Bulbulia, J. A. (2025). **margo**: A Command-line Interface for Registering and Creating Reproducible Workflows in Causal Inference Studies Using Non-parametric Estimation. [https://github.com/go-bayes/margo](https://github.com/go-bayes/margo)
+
+## Publications
+
+::: {#refs}
+:::
