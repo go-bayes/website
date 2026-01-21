@@ -1,6 +1,7 @@
 # Joseph A. Bulbulia - Academic Website
 
-*Under Construction*
+**Under Construction**
+(Still needs to be checked; needs better LaTeX styling)
 
 ## Website Structure
 
