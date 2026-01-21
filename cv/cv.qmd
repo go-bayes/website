@@ -90,9 +90,9 @@ Causal Inference, Evolution of Religion, National Scale Panel Data Collection
 
 4. Bulbulia, J. A. (2025). **causalworkshop**: Teaching Materials and Reproducible Code for Causal Inference Workshops. [https://github.com/go-bayes/causalworkshop](https://github.com/go-bayes/causalworkshop)
 
-5. Bulbulia, J. A. (2025). **margo**: A Command-line Interface for Registering and Creating Reproducible Workflows in Causal Inference Studies Using Non-parametric Estimation. [https://github.com/go-bayes/margo](https://github.com/go-bayes/margo)
+5. Bulbulia, J. A. (2025). **margo**: A Command-line Interface for Registering and Creating Reproducible Workflows in Causal Inference Studies Using Non-parametric Estimation. [https://github.com/go-bayes/margo](https://github.com/go-bayes/margo):G
 
 ## Publications
 
 ::: {#refs}
-:::
+::::

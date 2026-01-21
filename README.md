@@ -1,6 +1,6 @@
 # Joseph A. Bulbulia - Academic Website
 
-Personal academic website built with [Quarto](https://quarto.org/).
+*Under Construction*
 
 ## Website Structure
 
@@ -30,8 +30,8 @@ The CV (`cv/cv.qmd`) automatically pulls all publications from `cv/publications.
 
 ```yaml
 bibliography: publications.bib
-nocite: '@*'  # Include all entries, even if not cited
-csl: apa-cv.csl  # Citation style
+nocite: '@*'  # include all entries, even if not cited
+csl: apa-cv.csl  # citation style
 ```
 
 **To update publications:**
@@ -62,16 +62,16 @@ Add a BibTeX entry to `cv/publications.bib`:
 ### Commands
 
 ```bash
-# Render the entire website
+# render the entire website
 quarto render
 
-# Render just the CV
+# render just the CV
 quarto render cv/cv.qmd
 
 # Preview with live reload
 quarto preview
 
-# Render to PDF (requires LaTeX)
+# render to PDF (requires LaTeX)
 quarto render cv/cv.qmd --to pdf
 ```
 
@@ -79,7 +79,7 @@ quarto render cv/cv.qmd --to pdf
 
 The rendered website is generated in `_site/`. This folder can be deployed to:
 - GitHub Pages
-- Netlify
+- Netlify (TBA)
 - Any static web host
 
 ## Bibliography Management
