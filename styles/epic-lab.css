@@ -101,9 +101,9 @@
   --bg-white: #ffffff;
 
   /* accent colours */
-  --accent-primary: #1e66f5;
-  --accent-hover: #1a5bd6;
-  --accent-presentations: #8839ef;
+  --accent-primary: #ea76cb;
+  --accent-hover: #d965b3;
+  --accent-presentations: #e645a1;
   --success: #40a02b;
   --warning: #fe640b;
 
@@ -127,9 +127,9 @@ body.quarto-dark {
   --bg-light: #1e1e2e;
   --bg-white: #181825;
 
-  --accent-primary: #89b4fa;
-  --accent-hover: #74c7ec;
-  --accent-presentations: #cba6f7;
+  --accent-primary: #f5c2e7;
+  --accent-hover: #f2a2e0;
+  --accent-presentations: #f5a1d9;
   --success: #a6e3a1;
   --warning: #fab387;
 }
