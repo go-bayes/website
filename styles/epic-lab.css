@@ -315,6 +315,16 @@ a:hover {
   text-decoration-color: var(--accent-hover);
 }
 
+.contact-email {
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+  color: var(--accent-hover);
+}
+
 /* ========== CODE BLOCKS ========== */
 pre {
   background-color: #f8f9fa;
