@@ -323,14 +323,25 @@ table {
   border-collapse: collapse;
 }
 
-/* tighten awards table year column on CV page */
-#awards table {
-  table-layout: auto;
+/* tighten CV table year columns to a consistent width */
+#work table,
+#education table,
+#awards table,
+#serviceappointments table {
+  table-layout: fixed;
 }
 
+#work table th:first-child,
+#work table td:first-child,
+#education table th:first-child,
+#education table td:first-child,
 #awards table th:first-child,
-#awards table td:first-child {
-  width: 4ch;
+#awards table td:first-child,
+#serviceappointments table th:first-child,
+#serviceappointments table td:first-child {
+  width: 10ch;
+  max-width: 10ch;
+  min-width: 10ch;
   white-space: nowrap;
 }
 

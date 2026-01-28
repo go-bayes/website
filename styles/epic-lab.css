@@ -328,7 +328,7 @@ table {
 #education table,
 #awards table,
 #serviceappointments table {
-  table-layout: auto;
+  table-layout: fixed;
 }
 
 #work table th:first-child,
@@ -340,6 +340,8 @@ table {
 #serviceappointments table th:first-child,
 #serviceappointments table td:first-child {
   width: 10ch;
+  max-width: 10ch;
+  min-width: 10ch;
   white-space: nowrap;
 }
 
