@@ -1,6 +1,6 @@
 ## Contact
 
-Email: [joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.contact-email}
+Email: [joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-primary}
 
 ## Links
 
