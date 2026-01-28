@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - fonts
+  render:
+    - index.qmd
+    - cv/cv.qmd
 
 website:
   title: "Joseph Bulbulia"
@@ -10,10 +15,6 @@ website:
         href: index.qmd
       - text: CV
         href: cv/cv.qmd
-      - text: Research
-        href: research/index.qmd
-      - text: Blog
-        href: posts/
     right:
       - icon: github
         href: https://github.com/go-bayes
@@ -22,9 +23,11 @@ website:
 
 format:
   html:
-    theme: default
-    css: styles/catppuccin-minimal.css
+    respect-user-color-scheme: true
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles/epic-lab.css
     toc: true
     code-copy: true
     link-external-newwindow: true
-    mainfont: "JetBrains Mono"
