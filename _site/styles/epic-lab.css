@@ -115,6 +115,10 @@
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-pill: 999px;
+
+  /* hacker texture */
+  --grid-size: 26px;
+  --grid-line: rgba(234, 118, 203, 0.07);
 }
 
 /* dark theme (catppuccin mocha inspired) */
@@ -132,6 +136,8 @@ body.quarto-dark {
   --accent-presentations: #f5a1d9;
   --success: #a6e3a1;
   --warning: #fab387;
+
+  --grid-line: rgba(245, 194, 231, 0.06);
 }
 
 /* ========== GLOBAL STYLES ========== */
@@ -141,6 +147,11 @@ body {
   line-height: 1.7;
   font-size: 20px;
   background-color: var(--bg-light);
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-attachment: fixed;
   font-weight: 400;
 }
 
@@ -160,6 +171,8 @@ pre, code, kbd, samp {
   background-color: var(--header-dark) !important;
   border-bottom: 3px solid var(--header-border);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .navbar-brand,
@@ -209,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.01em;
 }
 
 h1 {
@@ -290,13 +304,15 @@ h3 {
 /* ========== LINKS ========== */
 a {
   color: var(--accent-primary);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
 
 a:hover {
   color: var(--accent-hover);
-  text-decoration: underline;
+  text-decoration-color: var(--accent-hover);
 }
 
 /* ========== CODE BLOCKS ========== */
@@ -408,6 +424,8 @@ tr:hover {
   margin: 1.5rem 0;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   transition: box-shadow 0.2s ease;
+  outline: 1px dashed rgba(234, 118, 203, 0.25);
+  outline-offset: 4px;
 }
 
 .card:hover {
@@ -508,7 +526,7 @@ tr:hover {
 .btn-primary {
   background-color: var(--accent-primary);
   color: white;
-  border: none;
+  border: 1px solid rgba(234, 118, 203, 0.6);
 }
 
 .btn-primary:hover {
