@@ -323,6 +323,17 @@ table {
   border-collapse: collapse;
 }
 
+/* tighten awards table year column on CV page */
+#awards table {
+  table-layout: auto;
+}
+
+#awards table th:first-child,
+#awards table td:first-child {
+  width: 4ch;
+  white-space: nowrap;
+}
+
 th {
   background-color: var(--header-dark);
   color: white;

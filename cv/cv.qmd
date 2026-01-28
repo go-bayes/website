@@ -15,10 +15,10 @@ Victoria University of Wellington, New Zealand
 
 ## Contact
 
--   Email: [joseph.bulbulia\@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz)
--   Max Planck: [Linguistic and Cultural Evolution](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)
--   ORCID: [0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)
--   EPIC Lab: [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epic-lab/)
+Email: [joseph.bulbulia\@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz)\
+Max Planck: [Linguistic and Cultural Evolution](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)\
+ORCID: [0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)\
+EPIC Lab: [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epic-lab/)
 
 ## Work
 
