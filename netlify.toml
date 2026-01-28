@@ -1,5 +1,5 @@
 [build]
-command = "if [ ! -d \"$HOME/quarto/quarto-${QUARTO_VERSION}\" ]; then mkdir -p \"$HOME/quarto\"; curl -L \"https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz\" | tar -xz -C \"$HOME/quarto\"; fi && \"$HOME/quarto/quarto-${QUARTO_VERSION}/bin/quarto\" render"
+command = "if [ ! -d \"$HOME/quarto/quarto-${QUARTO_VERSION}\" ]; then mkdir -p \"$HOME/quarto\"; curl -L \"https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz\" | tar -xz -C \"$HOME/quarto\"; fi && \"$HOME/quarto/quarto-${QUARTO_VERSION}/bin/quarto\" render --to html"
 publish = "_site"
 
 [build.environment]
