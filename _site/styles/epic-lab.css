@@ -345,6 +345,20 @@ table {
   white-space: nowrap;
 }
 
+#work table colgroup col:first-child,
+#education table colgroup col:first-child,
+#awards table colgroup col:first-child,
+#serviceappointments table colgroup col:first-child {
+  width: 10ch !important;
+}
+
+#work table colgroup col:last-child,
+#education table colgroup col:last-child,
+#awards table colgroup col:last-child,
+#serviceappointments table colgroup col:last-child {
+  width: auto !important;
+}
+
 th {
   background-color: var(--header-dark);
   color: white;
