@@ -101,4 +101,4 @@ quarto render
 ## Links
 
 - **ORCID:** [0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)
-- **EPIC Lab:** [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epic-lab/)
+- **EPICC Lab:** [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epic-lab/)
