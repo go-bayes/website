@@ -11,9 +11,9 @@ Email: [joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-p
 
 ## Research Interests
 
-- Evolution of Religion
 - Causal Inference
 - Non-parametric Machine Learning
+- Evolution of Religion
 - New Zealand Attitudes and Values Study
 
 ## Software
@@ -23,7 +23,6 @@ Email: [joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-p
 - [nzi-cli](https://github.com/go-bayes/nzi-cli) utility for New Zealand based research who want to check the weather, time-zone and currency differences, built in Rust.
 
 ## Personal Interests
-
 - Running (trail and road)
 - Music (Bass player)
 - Computer programming
