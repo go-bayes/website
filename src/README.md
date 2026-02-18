@@ -22,6 +22,18 @@ cd /path/to/website
 python3 src/clean_publications_v5.py
 ```
 
+**Google Scholar import (one command):**
+```bash
+cd /path/to/website
+python3 src/clean_publications_v5.py --input cv/scholar_export.bib --output cv/publications.bib
+```
+
+**Google Scholar merge (keep existing + add new):**
+```bash
+cd /path/to/website
+python3 src/clean_publications_v5.py --input cv/scholar_export.bib --output cv/publications.bib --merge-existing
+```
+
 ### `merge_pdfs_v3.py`
 
 **Purpose:** Merges PDF links from the LaTeX CV into the BibTeX file.

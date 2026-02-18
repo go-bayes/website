@@ -38,6 +38,14 @@ csl: apa-cv.csl  # citation style
 **To update publications:**
 1. Edit `cv/publications.bib` directly, OR
 2. Run the Python scripts in `src/` to process ORCID exports
+3. Import Google Scholar BibTeX in one command:
+```bash
+python3 src/clean_publications_v5.py --input cv/scholar_export.bib --output cv/publications.bib
+```
+4. Merge Google Scholar BibTeX with your current bibliography:
+```bash
+python3 src/clean_publications_v5.py --input cv/scholar_export.bib --output cv/publications.bib --merge-existing
+```
 
 **To add a new publication:**
 Add a BibTeX entry to `cv/publications.bib`:

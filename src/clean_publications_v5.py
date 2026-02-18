@@ -9,7 +9,53 @@ Clean and deduplicate BibTeX publications file.
 """
 
 import re
+import argparse
+from datetime import datetime
 from collections import OrderedDict
+from pathlib import Path
+
+
+def parse_args():
+    """Parse command-line arguments."""
+    project_root = Path(__file__).resolve().parent.parent
+    default_input = project_root / "cv" / "publications_orcid_backup.bib"
+    default_output = project_root / "cv" / "publications.bib"
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "clean and deduplicate a BibTeX publications file, keeping only "
+            "entries authored by Joseph Bulbulia"
+        )
+    )
+    parser.add_argument(
+        "--input",
+        "-i",
+        type=Path,
+        default=default_input,
+        help=f"input BibTeX path (default: {default_input})",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        type=Path,
+        default=default_output,
+        help=f"output BibTeX path (default: {default_output})",
+    )
+    parser.add_argument(
+        "--merge-existing",
+        action="store_true",
+        help="merge with an existing BibTeX file before cleaning and deduplication",
+    )
+    parser.add_argument(
+        "--existing",
+        type=Path,
+        default=None,
+        help=(
+            "existing BibTeX file to merge with when --merge-existing is set "
+            "(default: output path)"
+        ),
+    )
+    return parser.parse_args()
 
 def read_bib_file(filepath):
     """Read BibTeX file content."""
@@ -297,15 +343,40 @@ def format_entry(entry, key_counts):
     return '\n'.join(lines)
 
 def main():
-    input_file = '/sessions/relaxed-tender-edison/mnt/website/cv/publications_orcid_backup.bib'
-    output_file = '/sessions/relaxed-tender-edison/mnt/website/cv/publications.bib'
+    args = parse_args()
+    input_file = args.input.resolve()
+    output_file = args.output.resolve()
+    existing_file = None
+
+    if not input_file.exists():
+        raise FileNotFoundError(f"Input file not found: {input_file}")
 
     print(f"Reading {input_file}...")
     content = read_bib_file(input_file)
 
     print("Extracting entries...")
-    entries = extract_entries(content)
-    print(f"Found {len(entries)} entries")
+    input_entries = extract_entries(content)
+    print(f"Found {len(input_entries)} entries")
+
+    entries = list(input_entries)
+    existing_entries = []
+
+    if args.merge_existing:
+        existing_file = args.existing.resolve() if args.existing else output_file
+        if existing_file.exists():
+            print(f"Reading existing entries from {existing_file}...")
+            existing_content = read_bib_file(existing_file)
+            existing_entries = extract_entries(existing_content)
+            print(f"Found {len(existing_entries)} existing entries")
+            # existing entries are placed first so curated entries are retained
+            # for title-based deduplication when DOI metadata is missing.
+            entries = existing_entries + input_entries
+            print(f"Merged total before filtering: {len(entries)} entries")
+        else:
+            print(
+                f"Warning: Existing file not found at {existing_file}. "
+                "Continuing with input only."
+            )
 
     # Filter to only Bulbulia publications
     print("Filtering to Bulbulia publications...")
@@ -353,16 +424,20 @@ def main():
     formatted_entries.sort(key=sort_key)
 
     print(f"Writing {len(formatted_entries)} entries to {output_file}...")
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(f"% Publications for Joseph A. Bulbulia\n")
-        f.write(f"% Generated: 2026-01-20\n")
+        f.write(f"% Generated: {datetime.now().strftime('%Y-%m-%d')}\n")
         f.write(f"% Total entries: {len(formatted_entries)}\n\n")
         f.write('\n\n'.join(formatted_entries))
         f.write('\n')
 
     print("Done!")
     print(f"\nSummary:")
-    print(f"  Input entries: {len(entries)}")
+    print(f"  Input entries: {len(input_entries)}")
+    if args.merge_existing:
+        print(f"  Existing entries: {len(existing_entries)}")
+        print(f"  Combined entries: {len(entries)}")
     print(f"  Non-Bulbulia entries: {len(excluded)}")
     print(f"  Duplicates removed: {len(bulbulia_entries) - len(unique_entries)}")
     print(f"  Output entries: {len(formatted_entries)}")

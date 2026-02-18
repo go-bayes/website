@@ -1,24 +1,36 @@
 ---
 title: "Joseph A. Bulbulia"
 format:
-  html: default
+  html:
+    toc: false
+    page-layout: full
   pdf: default
 bibliography: publications.bib
 nocite: '@*'
 csl: apa-numeric-cv.csl
 ---
 
+::: {.cv-page}
+::: {.cv-intro}
 Professor, School of Psychological Sciences\
-Director, Center for Applied Cross-Cultural Research\
+Director, Centre for Applied Cross-Cultural Research\
 Faculty of Education, Health, and Psychological Sciences\
 Victoria University of Wellington, New Zealand
 
+::: {.cv-links}
+[Email](mailto:joseph.bulbulia@vuw.ac.nz)
+[Max Planck](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)
+[ORCID](https://orcid.org/0000-0002-5861-2056)
+[EPICC Lab](https://go-bayes.github.io/epic-lab/)
+:::
+:::
+
 ## Contact
 
-Email: [joseph.bulbulia\@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz)\
-Max Planck: [Linguistic and Cultural Evolution](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)\
-ORCID: [0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)\
-EPICC Lab: [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epic-lab/)
+[joseph.bulbulia\@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz)\
+[Linguistic and Cultural Evolution (Max Planck)](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)\
+[ORCID 0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)\
+[EPICC Lab](https://go-bayes.github.io/epic-lab/)
 
 ## Work
 
@@ -30,7 +42,11 @@ EPICC Lab: [https://go-bayes.github.io/epic-lab/](https://go-bayes.github.io/epi
 
 ## Specialisations
 
-Causal Inference, Evolution of Religion, National Scale Panel Data Collection
+::: {.cv-chips}
+`Causal inference`
+`Evolution of religion`
+`National-scale panel data collection`
+:::
 
 ## Education
 
@@ -90,9 +106,11 @@ Causal Inference, Evolution of Religion, National Scale Panel Data Collection
 
 4. Bulbulia, J. A. (2025). **causalworkshop**: Teaching Materials and Reproducible Code for Causal Inference Workshops. [https://github.com/go-bayes/causalworkshop](https://github.com/go-bayes/causalworkshop)
 
-5. Bulbulia, J. A. (2025). **margo**: A Command-line Interface for Registering and Creating Reproducible Workflows in Causal Inference Studies Using Non-parametric Estimation. [https://github.com/go-bayes/margo](https://github.com/go-bayes/margo):G
+5. Bulbulia, J. A. (2025). **margo**: A Command-line Interface for Registering and Creating Reproducible Workflows in Causal Inference Studies Using Non-parametric Estimation. [https://github.com/go-bayes/margo](https://github.com/go-bayes/margo)
 
 ## Publications
 
 ::: {#refs}
 ::::
+
+:::

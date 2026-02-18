@@ -402,6 +402,153 @@ tr:hover {
   background-color: #f7fafc;
 }
 
+/* ========== CV PAGE ========== */
+.cv-page {
+  max-width: 980px;
+  margin: 1.5rem auto 3rem;
+  padding: 2rem 2.2rem 2.4rem;
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-white);
+  box-shadow: 0 10px 24px rgba(17, 17, 27, 0.08);
+}
+
+.cv-page p {
+  text-align: left;
+  hyphens: none;
+}
+
+.cv-intro {
+  position: relative;
+  margin: 0 0 1.6rem;
+  padding: 1.4rem 1.4rem 1.2rem 1.7rem;
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    130deg,
+    rgba(234, 118, 203, 0.09),
+    rgba(234, 118, 203, 0.01) 62%
+  );
+}
+
+.cv-intro::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-primary);
+}
+
+.cv-intro > p {
+  margin: 0;
+  font-family: "Crimson Pro", Georgia, "Times New Roman", serif;
+  font-size: 1.16rem;
+  line-height: 1.45;
+  color: var(--text-dark);
+}
+
+.cv-links {
+  margin-top: 1rem;
+}
+
+.cv-links p {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.cv-links a {
+  padding: 0.28rem 0.7rem;
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.cv-page h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid var(--header-border);
+  font-size: 1.28rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cv-page h2::after {
+  content: none;
+}
+
+.cv-page table {
+  margin: 1rem 0 1.5rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.cv-page th {
+  font-size: 0.83rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.cv-page td {
+  vertical-align: top;
+}
+
+.cv-page #software + ol {
+  margin: 0.8rem 0 0;
+  padding-left: 1.4rem;
+}
+
+.cv-page #software + ol li {
+  margin: 0 0 0.7rem;
+  padding: 0.5rem 0.6rem;
+  border-left: 3px solid rgba(234, 118, 203, 0.3);
+  background: rgba(234, 118, 203, 0.05);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.cv-chips {
+  margin-top: 0.5rem;
+}
+
+.cv-chips code {
+  margin: 0 0.35rem 0.35rem 0;
+  display: inline-block;
+  padding: 0.22rem 0.65rem;
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-light);
+  color: var(--text-dark);
+  font-size: 0.86rem;
+}
+
+.cv-page #refs {
+  margin-top: 0.8rem;
+}
+
+.cv-page #refs .csl-entry {
+  margin: 0 0 0.5rem;
+  padding: 0.25rem 0 0.25rem 0.9rem;
+  border-left: 3px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.cv-page #refs .csl-entry:hover {
+  border-left-color: var(--accent-primary);
+}
+
 /* ========== CALLOUT BOXES ========== */
 .callout {
   margin: 2rem 0;
@@ -635,6 +782,27 @@ body.quarto-dark tr:hover {
   background-color: #1e1e2e;
 }
 
+body.quarto-dark .cv-page {
+  box-shadow: none;
+}
+
+body.quarto-dark .cv-intro {
+  background: linear-gradient(
+    130deg,
+    rgba(245, 194, 231, 0.14),
+    rgba(245, 194, 231, 0.03) 62%
+  );
+}
+
+body.quarto-dark .cv-links a {
+  background: rgba(24, 24, 37, 0.72);
+}
+
+body.quarto-dark .cv-page #software + ol li {
+  background: rgba(245, 194, 231, 0.08);
+  border-left-color: rgba(245, 194, 231, 0.42);
+}
+
 body.quarto-dark .callout-note {
   background-color: #313244;
 }
@@ -687,5 +855,26 @@ body.quarto-dark h6 {
   
   .team-member .column {
     width: 100% !important;
+  }
+
+  .cv-page {
+    margin: 0.9rem 0 2.4rem;
+    padding: 1.2rem 1rem 1.5rem;
+  }
+
+  .cv-intro {
+    padding: 1rem 1rem 0.9rem 1.2rem;
+  }
+
+  .cv-intro > p {
+    font-size: 1.02rem;
+  }
+
+  .cv-page table {
+    font-size: 0.9rem;
+  }
+
+  .cv-links p {
+    gap: 0.45rem;
   }
 }
