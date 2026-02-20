@@ -21,7 +21,7 @@ Victoria University of Wellington, New Zealand
 [Email](mailto:joseph.bulbulia@vuw.ac.nz)
 [Max Planck](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)
 [ORCID](https://orcid.org/0000-0002-5861-2056)
-[EPICC Lab](https://go-bayes.github.io/epic-lab/)
+[ACCEPT at VUW](https://go-bayes.github.io/accept/)
 :::
 :::
 
@@ -30,7 +30,7 @@ Victoria University of Wellington, New Zealand
 [joseph.bulbulia\@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz)\
 [Linguistic and Cultural Evolution (Max Planck)](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/)\
 [ORCID 0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)\
-[EPICC Lab](https://go-bayes.github.io/epic-lab/)
+[ACCEPT at VUW](https://go-bayes.github.io/accept/)
 
 ## Work
 
@@ -75,7 +75,7 @@ Victoria University of Wellington, New Zealand
 |-------|------|
 | 2022-- | Director, [Centre for Applied Cross-Cultural Research](https://www.wgtn.ac.nz/cacr/about/people/staff), Victoria University |
 | 2022-- | Adjunct Professor of Psychology, [University of Canterbury](https://www.canterbury.ac.nz/science/schools/psyc-speech-hear/people/) |
-| 2020-- | Director, [EPICC Lab](https://go-bayes.github.io/epic-lab/), Victoria University |
+| 2020-- | Director, [ACCEPT at VUW](https://go-bayes.github.io/accept/), Victoria University |
 | 2018-- | Research Associate, [Max Planck Institute for the Science of Human History](https://www.eva.mpg.de/linguistic-and-cultural-evolution/staff/) |
 | 2018-- | Advisory Board: Templeton Religion Trust: Social Consequences of Religion Initiative |
 | 2018--2020 | Maclaurin Goodfellow Chair, University of Auckland |
