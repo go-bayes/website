@@ -27,7 +27,7 @@ format:
     theme:
       light: flatly
       dark: darkly
-    css: styles/epic-lab.css
+    css: styles/accept.css
     toc: true
     code-copy: true
     link-external-newwindow: true
