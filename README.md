@@ -109,4 +109,4 @@ quarto render
 ## Links
 
 - **ORCID:** [0000-0002-5861-2056](https://orcid.org/0000-0002-5861-2056)
-- **ACCEPT at VUW:** [https://go-bayes.github.io/accept/](https://go-bayes.github.io/accept/)
+- **Lab:** [https://go-bayes.github.io/accept/](https://go-bayes.github.io/accept/)
