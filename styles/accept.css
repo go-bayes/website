@@ -39,23 +39,23 @@
 :root {
   /* greys */
   --header-dark: #4c4f69;
-  --header-border: #dce0e8;
-  --text-dark: #4c4f69;
-  --text-body: #4c4f69;
-  --text-light: #5c5f77;
+  --header-border: #e0e0e8;
+  --text-dark: #1a1a2e;
+  --text-body: #2c2c3a;
+  --text-light: #6b6b80;
   --bg-light: #fafafa;
   --bg-white: #ffffff;
-  --border: #dce0e8;
+  --border: #e0e0e8;
 
   /* accent colours */
-  --accent-primary: #059669;
-  --accent-hover: #047857;
+  --accent-primary: #5872f5;
+  --accent-hover: #4660d9;
   --accent-presentations: #209fb5;
   --success: #40a02b;
   --warning: #fe640b;
 
   /* callouts */
-  --callout-note-bg: #ebf8ff;
+  --callout-note-bg: #f0f4ff;
   --callout-tip-bg: #f0fff4;
   --callout-warning-bg: #fffaf0;
 
@@ -80,8 +80,8 @@ body.quarto-dark {
   --bg-white: #181825;
   --border: #313244;
 
-  --accent-primary: #34d399;
-  --accent-hover: #6ee7b7;
+  --accent-primary: #93bbfc;
+  --accent-hover: #aeccfd;
   --accent-presentations: #94e2d5;
   --success: #a6e3a1;
   --warning: #fab387;
@@ -378,8 +378,8 @@ tr:hover {
   border-radius: var(--radius-md);
   background: linear-gradient(
     130deg,
-    rgba(5, 150, 105, 0.1),
-    rgba(5, 150, 105, 0.02) 62%
+    rgba(88, 114, 245, 0.1),
+    rgba(88, 114, 245, 0.02) 62%
   );
 }
 
@@ -466,8 +466,8 @@ tr:hover {
 .cv-page #software + ol li {
   margin: 0 0 0.7rem;
   padding: 0.5rem 0.6rem;
-  border-left: 3px solid rgba(5, 150, 105, 0.35);
-  background: rgba(5, 150, 105, 0.08);
+  border-left: 3px solid rgba(88, 114, 245, 0.35);
+  background: rgba(88, 114, 245, 0.08);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
@@ -634,7 +634,7 @@ tr:hover {
 .btn-primary {
   background-color: var(--accent-primary);
   color: white;
-  border: 1px solid rgba(5, 150, 105, 0.55);
+  border: 1px solid rgba(88, 114, 245, 0.55);
 }
 
 .btn-primary:hover {
