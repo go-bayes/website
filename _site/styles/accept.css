@@ -612,12 +612,12 @@ tr:hover {
 }
 
 .sidebar nav[role="doc-toc"] a {
-  color: var(--text-body);
+  color: var(--accent-primary);
 }
 
 .sidebar nav[role="doc-toc"] a:hover,
 .sidebar nav[role="doc-toc"] a.active {
-  color: var(--accent-primary);
+  color: var(--accent-hover);
   font-weight: 600;
 }
 
