@@ -39,13 +39,13 @@
 :root {
   /* greys */
   --header-dark: #4c4f69;
-  --header-border: #e0e0e8;
+  --header-border: #e4e4ec;
   --text-dark: #1a1a2e;
   --text-body: #2c2c3a;
   --text-light: #6b6b80;
-  --bg-light: #fafafa;
+  --bg-light: #ffffff;
   --bg-white: #ffffff;
-  --border: #e0e0e8;
+  --border: #e4e4ec;
 
   /* accent colours */
   --accent-primary: #5872f5;
@@ -72,13 +72,13 @@
 /* dark theme (catppuccin mocha inspired) */
 body.quarto-dark {
   --header-dark: #11111b;
-  --header-border: #313244;
-  --text-dark: #cdd6f4;
-  --text-body: #bac2de;
-  --text-light: #a6adc8;
-  --bg-light: #1e1e2e;
-  --bg-white: #181825;
-  --border: #313244;
+  --header-border: #2e2e48;
+  --text-dark: #e8e8f0;
+  --text-body: #d4d4e0;
+  --text-light: #9898ac;
+  --bg-light: #1a1a2e;
+  --bg-white: #222240;
+  --border: #2e2e48;
 
   --accent-primary: #93bbfc;
   --accent-hover: #aeccfd;
