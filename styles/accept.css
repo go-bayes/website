@@ -41,15 +41,15 @@
   --header-dark: #4c4f69;
   --header-border: #dce0e8;
   --text-dark: #4c4f69;
-  --text-body: #5c5f77;
-  --text-light: #6c6f85;
-  --bg-light: #eff1f5;
+  --text-body: #4c4f69;
+  --text-light: #5c5f77;
+  --bg-light: #fafafa;
   --bg-white: #ffffff;
   --border: #dce0e8;
 
   /* accent colours */
-  --accent-primary: #1e66f5;
-  --accent-hover: #1a5ad7;
+  --accent-primary: #2563eb;
+  --accent-hover: #1d4ed8;
   --accent-presentations: #209fb5;
   --success: #40a02b;
   --warning: #fe640b;
