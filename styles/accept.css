@@ -611,13 +611,16 @@ tr:hover {
   font-size: 0.875rem;
 }
 
-.sidebar nav[role="doc-toc"] a {
-  color: var(--accent-primary);
+.sidebar nav[role="doc-toc"] a,
+.sidebar nav[role="doc-toc"] a.nav-link {
+  color: var(--accent-primary) !important;
 }
 
 .sidebar nav[role="doc-toc"] a:hover,
-.sidebar nav[role="doc-toc"] a.active {
-  color: var(--accent-hover);
+.sidebar nav[role="doc-toc"] a.nav-link:hover,
+.sidebar nav[role="doc-toc"] a.active,
+.sidebar nav[role="doc-toc"] a.nav-link.active {
+  color: var(--accent-hover) !important;
   font-weight: 600;
 }
 
