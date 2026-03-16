@@ -23,7 +23,7 @@ website:
 
 format:
   html:
-    respect-user-color-scheme: true
+    respect-user-color-scheme: false
     theme:
       dark: darkly
       light: flatly
