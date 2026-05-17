@@ -42,7 +42,7 @@ csl: apa-cv.csl  # citation style
 ```bash
 python3 src/clean_publications_v5.py --input cv/scholar_export.bib --output cv/publications.bib
 ```
-4. Merge Google Scholar BibTeX with your current bibliography:
+4. Merge Google Scholar BibTeX with current bibliography:
 ```bash
 python3 src/clean_publications_v5.py --input cv/scholar_export.bib --output cv/publications.bib --merge-existing
 ```
