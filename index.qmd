@@ -7,7 +7,6 @@ Email: [joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-p
 - [University Profile](https://people.wgtn.ac.nz/joseph.bulbulia)
 - [CV](https://josephbulbulia.netlify.app/cv/cv)
 - [Lab](https://go-bayes.github.io/accept/)
-- [Global Worship Map](https://www.placesmap.org)
 
 ## Research Interests
 
@@ -19,8 +18,7 @@ Email: [joseph.bulbulia@vuw.ac.nz](mailto:joseph.bulbulia@vuw.ac.nz){.btn .btn-p
 ## Software
 - [margot](https://go-bayes.github.io/margot/) R package for asking and answering causal questions with data.
 - [boilerplate](https://go-bayes.github.io/boilerplate/) R package for scaffolding reproducible research.
-- [margo](https://github.com/go-bayes/margo) cli for pre-registering `margot` causal inference workflows, built in Rust.
-- [nzi-cli](https://github.com/go-bayes/nzi-cli) utility for New Zealand based research who want to check the weather, time-zone and currency differences, built in Rust.
+- [margo](https://github.com/go-bayes/margo) cli for pre-registering `margot` causal inference workflows. 
 
 ## Personal Interests
 - Running (trail and road)
