@@ -69,6 +69,13 @@ Victoria University of Wellington, New Zealand
 | 1996 | **Bowen Merit Award**: Princeton University |
 | 1990 | **Flatly Award** (top philosophy graduate): Holy Cross |
 
+## Grants
+
+| Years | Grant |
+|-------|-------|
+| 2026--2027 | **Causal Processes of Language Endangerment and Religious Diversification in Vanuatu**. Principal Investigator, Max Planck Institute for Evolutionary Anthropology. April 2026--December 2027. NZD 155,476.33 |
+| 2025--2027 | **TRT-2022-30666: Mapping Places of Worship: A Tool for Efficient Global Data Collection on Religious Communities**. Principal Investigator, Templeton Religion Trust. Until 31 January 2027. NZD 244,312.48 |
+
 ## Service/Appointments
 
 | Years | Role |
@@ -95,6 +102,12 @@ Victoria University of Wellington, New Zealand
 | 2006--2010 | Executive Committee (elected): International Association for the Cognitive Science of Religion |
 | 2006 | Gaesteprofessor: Religion, Cognition, Culture Group, Aarhus University |
 | 1996--1999 | Assistant Master, Stevenson Hall: Princeton University |
+
+## Student Supervision
+
+| Years | Student |
+|-------|---------|
+| 2025--2026 | Zahle Wisely, **MSc Psychological Science**. *Average and Heterogeneous Treatment Effects of Employer Gratitude on Employees - Evidence from A National Prospective Cohort Study?* Primary Supervisor. |
 
 ## Software
 

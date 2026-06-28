@@ -61,6 +61,7 @@
           </if>
         </choose>
         <text prefix=", " variable="page"/>
+        <text prefix=", " variable="note"/>
       </if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=" ">
